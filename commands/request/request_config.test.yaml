@@ -1,0 +1,6 @@
+url: https://httpbin.zcorky.com/get
+
+query:
+  x: 1
+  y: 2
+  env: $USER
