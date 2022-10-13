@@ -1,6 +1,13 @@
-url: https://httpbin.zcorky.com/get
+method: POST
+
+url: https://httpbin.zcorky.com/post
 
 query:
   x: 1
   y: 2
+  user: $USER
+
+body:
   env: $USER
+  shell: ${SHELL}
+  quote_value: ${QUOTE_VALUE}
