@@ -9,8 +9,9 @@ import (
 
 func main() {
 	app := cli.NewMultipleProgram(&cli.MultipleProgramConfig{
-		Name:  "gzfetch",
-		Usage: "Simple and powerful request cli, alternative to curl",
+		Name:    "gzfetch",
+		Usage:   "Simple and powerful request cli, alternative to curl",
+		Version: Version,
 	})
 
 	get.Create(app)
